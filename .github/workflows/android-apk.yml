@@ -3,7 +3,7 @@ name: Build Android APK
 on:
   push:
     paths:
-      - "Expressive-Keyboard-modified.zip"
+      - "2Expressive.zip"
       - ".github/workflows/android-apk.yml"
   workflow_dispatch:
 
