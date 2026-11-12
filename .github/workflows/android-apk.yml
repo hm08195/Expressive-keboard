@@ -46,7 +46,7 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: Expressive-Keyboard-release-apk
+          name: 2Expressive-Keyboard-release-apk
           path: Expressive-Keyboard-main/app/build/outputs/apk/release/*.apk
           if-no-files-found: error
           retention-days: 14
