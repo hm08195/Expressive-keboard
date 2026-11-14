@@ -1,9 +1,10 @@
+
 name: Build Android APK
 
 on:
   push:
     paths:
-      - "2Expressive.zip"
+      - "Expressive.zip"
       - ".github/workflows/android-apk.yml"
   workflow_dispatch:
 
@@ -34,8 +35,8 @@ jobs:
 
       - name: Extract project archive
         run: |
-          test -f Expressive-Keyboard-modified.zip
-          unzip -q Expressive-Keyboard-modified.zip
+          test -f Expressive.zip
+          unzip -q Expressive.zip
           test -f Expressive-Keyboard-main/gradlew
           chmod +x Expressive-Keyboard-main/gradlew
 
